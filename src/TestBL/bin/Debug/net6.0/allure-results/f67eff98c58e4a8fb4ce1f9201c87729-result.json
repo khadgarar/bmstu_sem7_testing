@@ -1,0 +1,75 @@
+{
+  "uuid": "fd34dcaf-815a-42db-ae5b-0bfe283d0bb3-tr-0-1043",
+  "historyId": "TestBL.TestResponsibleController.TestDeleteResponsibility",
+  "fullName": "TestBL.TestResponsibleController.TestDeleteResponsibility",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteResponsibility"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteResponsibility",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteResponsibility"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteResponsibility",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "84673730e0b848f395f5f5ef91be4d0e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695479745029,
+      "stop": 1695479745033
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695479745029,
+  "stop": 1695479745034
+}

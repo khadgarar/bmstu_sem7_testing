@@ -1,0 +1,75 @@
+{
+  "uuid": "99193223-b949-4d77-b299-9a26435cd6d3-tr-0-1031",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestAdd",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestAdd",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAdd"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAdd",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAdd"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAdd",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1b27e7543e6041fab8e5b2d32a83473d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671209912798,
+      "stop": 1671209912808
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671209912798,
+  "stop": 1671209912809
+}

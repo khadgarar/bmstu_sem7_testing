@@ -1,0 +1,75 @@
+{
+  "uuid": "2451db47-e66f-4f59-8749-f9fd1d6a648a-tr-0-1005",
+  "historyId": "TrasferSystemTests.TestCompanyRepository.TestDelete",
+  "fullName": "TrasferSystemTests.TestCompanyRepository.TestDelete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDelete"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCompanyRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDelete",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDelete"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDelete",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d1d49e6e4cc04aff86872fb5b7c2cafe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671897724250,
+      "stop": 1671897724314
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671897724250,
+  "stop": 1671897724314
+}

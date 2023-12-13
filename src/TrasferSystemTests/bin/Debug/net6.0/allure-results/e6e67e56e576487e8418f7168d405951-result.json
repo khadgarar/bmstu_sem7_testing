@@ -1,0 +1,75 @@
+{
+  "uuid": "ea6bfab7-6aa8-4585-ad4a-d988eb7c0ce4-tr-0-1036",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibilityByEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bdb4da438cb644268f3ead78574df5cc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671894929398,
+      "stop": 1671894929412
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671894929398,
+  "stop": 1671894929412
+}

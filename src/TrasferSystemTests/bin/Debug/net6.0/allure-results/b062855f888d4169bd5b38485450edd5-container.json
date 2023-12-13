@@ -1,0 +1,12 @@
+{
+  "uuid": "c01fcf6e-9eab-435b-80dd-632811e2b1e1-tc-0-1030",
+  "name": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee",
+  "children": [
+    "f49b4cd5-ecc0-4fad-b60e-e63d57c68010-tr-0-1036"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671799134235,
+  "stop": 1671799134262
+}

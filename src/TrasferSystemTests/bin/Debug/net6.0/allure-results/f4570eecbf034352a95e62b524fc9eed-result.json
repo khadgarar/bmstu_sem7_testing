@@ -1,0 +1,75 @@
+{
+  "uuid": "d566b5ed-51a6-40d2-97e8-cc2ec73f1fd4-tr-0-1013",
+  "historyId": "TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany",
+  "fullName": "TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetDepartmentsByCompany"
+    },
+    {
+      "name": "testClass",
+      "value": "TestDepartmentRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetDepartmentsByCompany",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetDepartmentsByCompany"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetDepartmentsByCompany",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1050c22b48e54929aad76b7532a98b91-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702490318080,
+      "stop": 1702490318092
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702490318080,
+  "stop": 1702490318092
+}

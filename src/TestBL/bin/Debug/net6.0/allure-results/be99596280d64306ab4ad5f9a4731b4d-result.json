@@ -1,0 +1,75 @@
+{
+  "uuid": "c1b8f0af-0424-4874-ad42-4aabe033bc87-tr-0-1026",
+  "historyId": "TestBL.TestManagerController.TestGetResponsibilityByEmployee",
+  "fullName": "TestBL.TestManagerController.TestGetResponsibilityByEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibilityByEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "06b114dd9c404758bdbbf2bb89c46786-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671206111713,
+      "stop": 1671206111717
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671206111713,
+  "stop": 1671206111717
+}

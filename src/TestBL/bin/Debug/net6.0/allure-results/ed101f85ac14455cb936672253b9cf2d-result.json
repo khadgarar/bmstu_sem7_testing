@@ -1,0 +1,75 @@
+{
+  "uuid": "0940a67c-d0ab-4024-b6bc-77c0c9e5bec6-tr-0-1015",
+  "historyId": "TestBL.TestFounderController.TestUpdateCompany",
+  "fullName": "TestBL.TestFounderController.TestUpdateCompany",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateCompany"
+    },
+    {
+      "name": "testClass",
+      "value": "TestFounderController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateCompany",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestUpdateCompany"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateCompany",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d880ac9c1e304861842ff73d6c508e5f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702490234191,
+      "stop": 1702490234195
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702490234191,
+  "stop": 1702490234195
+}

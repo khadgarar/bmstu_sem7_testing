@@ -1,0 +1,78 @@
+{
+  "uuid": "b3cb5eb4-999c-432a-9770-61cc3b17c235-tr-0-1033",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestUpdate",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestUpdate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdate"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdate",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Not equal Added Responsibility\r\n  Expected: 00:00:01\r\n  But was:  04:00:00\r\n",
+    "trace": "   at TrasferSystemTests.TestResponsibilityRepository.TestUpdate() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 73\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdate",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Not equal Added Responsibility\r\n  Expected: 00:00:01\r\n  But was:  04:00:00\r\n",
+        "trace": "   at TrasferSystemTests.TestResponsibilityRepository.TestUpdate() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 73\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "177a3f7c78ba453295ea284e6bb41e71-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671798375454,
+      "stop": 1671798375465
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671798375454,
+  "stop": 1671798375465
+}

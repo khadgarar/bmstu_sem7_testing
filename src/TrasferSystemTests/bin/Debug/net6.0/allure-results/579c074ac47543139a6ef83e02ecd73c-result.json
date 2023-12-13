@@ -1,0 +1,75 @@
+{
+  "uuid": "8f9bfb66-e188-48b1-a8ea-6d09cc7392ed-tr-0-1019",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByID",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByID",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetEmployeeByID"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetEmployeeByID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetEmployeeByID"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetEmployeeByID",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6a459c4483824b63aeb2f212f3c03c2c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671894929177,
+      "stop": 1671894929184
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671894929177,
+  "stop": 1671894929184
+}

@@ -1,0 +1,75 @@
+{
+  "uuid": "5747c49d-2625-4c1f-9e73-e7a47a5f49c8-tr-0-1039",
+  "historyId": "TestBL.TestResponsibleController.TestUpdateObjective",
+  "fullName": "TestBL.TestResponsibleController.TestUpdateObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateObjective",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestUpdateObjective"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateObjective",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3ea7bf35a96a4d5ab1665877be11163d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702487499922,
+      "stop": 1702487499931
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702487499922,
+  "stop": 1702487499931
+}

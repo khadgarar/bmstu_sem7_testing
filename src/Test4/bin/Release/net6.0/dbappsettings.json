@@ -1,0 +1,12 @@
+{
+  "Connections": {
+    "ConnectAsNotauth": "Host=localhost;Port=5432;Database=postgres;Username=notauth_role;Password=notauth",
+    "ConnectAsUser": "Host=localhost;Port=5432;Database=postgres;Username=user_role;Password=user",
+    "ConnectAsEmployee": "Host=localhost;Port=5432;Database=postgres;Username=employee_role;Password=employee",
+    "ConnectAsResponsible": "Host=localhost;Port=5432;Database=postgres;Username=responsible_role;Password=responsible",
+    "ConnectAsManager": "Host=localhost;Port=5432;Database=postgres;Username=manager_role;Password=manager",
+    "ConnectAsFounder": "Host=localhost;Port=5432;Database=postgres;Username=founder_role;Password=founder",
+    "ConnectAsHR": "Host=localhost;Port=5432;Database=postgres;Username=hr_role;Password=hr"
+  },
+  "Logger": "Logfile.txt"
+}

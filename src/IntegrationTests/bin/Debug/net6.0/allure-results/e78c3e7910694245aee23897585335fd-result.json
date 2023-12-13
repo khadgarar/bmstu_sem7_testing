@@ -1,0 +1,75 @@
+{
+  "uuid": "f55706dd-23bd-4b4e-b626-373b87b11b47-tr-0-1002",
+  "historyId": "IntegrationTests.IntTestEmployeeController.TestGetAllObjectives",
+  "fullName": "IntegrationTests.IntTestEmployeeController.TestGetAllObjectives",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllObjectives"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllObjectives",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllObjectives"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllObjectives",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "69d4ec13d6ff49a692b49ba740f78b03-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702495604486,
+      "stop": 1702495604543
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702495604486,
+  "stop": 1702495604543
+}

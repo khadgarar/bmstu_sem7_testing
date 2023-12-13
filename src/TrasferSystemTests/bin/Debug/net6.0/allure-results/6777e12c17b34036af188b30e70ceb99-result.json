@@ -1,0 +1,75 @@
+{
+  "uuid": "ffcfee2a-f268-45b1-aad6-57394c3aec21-tr-0-1020",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.GetResponsibleEmployees",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.GetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "GetResponsibleEmployees",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "GetResponsibleEmployees"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "GetResponsibleEmployees",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "120caeaa44a04a5aaeb21da66678c2e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695482720997,
+      "stop": 1695482721074
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695482720997,
+  "stop": 1695482721074
+}

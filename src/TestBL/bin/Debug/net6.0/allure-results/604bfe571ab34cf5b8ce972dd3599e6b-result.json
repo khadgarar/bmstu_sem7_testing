@@ -1,0 +1,75 @@
+{
+  "uuid": "66d44dd9-d327-415f-9080-5d937464df01-tr-0-1034",
+  "historyId": "TestBL.TestNotAuthController.TestGetUserByLogin",
+  "fullName": "TestBL.TestNotAuthController.TestGetUserByLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetUserByLogin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNotAuthController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetUserByLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetUserByLogin"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetUserByLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8ce52639fe974c4997dccf5c5bed6eb2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695479700294,
+      "stop": 1695479700337
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695479700294,
+  "stop": 1695479700337
+}

@@ -1,0 +1,75 @@
+{
+  "uuid": "a7a83158-41ed-4a2e-bf57-02eaaead1cce-tr-0-1038",
+  "historyId": "TestBL.TestResponsibleController.TestAddSubObjective",
+  "fullName": "TestBL.TestResponsibleController.TestAddSubObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddSubObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddSubObjective",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddSubObjective"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddSubObjective",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c7c25458632b49a997a4d053a8e2d36b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702490714169,
+      "stop": 1702490714172
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702490714169,
+  "stop": 1702490714172
+}

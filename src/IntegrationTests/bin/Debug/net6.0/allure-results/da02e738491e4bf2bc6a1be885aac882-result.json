@@ -1,0 +1,75 @@
+{
+  "uuid": "27c41c15-c32f-4ca2-8e5c-84b30cf62982-tr-0-1003",
+  "historyId": "IntegrationTests.IntTestEmployeeController.TestGetWorkplace",
+  "fullName": "IntegrationTests.IntTestEmployeeController.TestGetWorkplace",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorkplace"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetWorkplace",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetWorkplace"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetWorkplace",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9ff1a549192e46a7804083e0d690721d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702495604589,
+      "stop": 1702495604614
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702495604589,
+  "stop": 1702495604614
+}

@@ -1,0 +1,75 @@
+{
+  "uuid": "689e1aa8-ed6e-4098-9d94-25ec52c094f0-tr-0-1010",
+  "historyId": "TestBL.TestEmployeeController.TestGetObjectivesByTitleEmpty",
+  "fullName": "TestBL.TestEmployeeController.TestGetObjectivesByTitleEmpty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetObjectivesByTitleEmpty"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetObjectivesByTitleEmpty",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetObjectivesByTitleEmpty"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetObjectivesByTitleEmpty",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e14b85d7a7c1478aa15958e22132f9ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695480607919,
+      "stop": 1695480607929
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695480607919,
+  "stop": 1695480607929
+}

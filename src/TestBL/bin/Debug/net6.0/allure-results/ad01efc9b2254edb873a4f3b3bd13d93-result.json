@@ -1,0 +1,75 @@
+{
+  "uuid": "96d3f0ec-46fb-4135-8d58-ed85748cd452-tr-0-1005",
+  "historyId": "TestBL.TestEmployeeController.TestGetAllEmployees",
+  "fullName": "TestBL.TestEmployeeController.TestGetAllEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost",
+      "url": "localhost",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllEmployees",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllEmployees"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllEmployees",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "160e6d6088d540038a5cda0cf32e7205-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671204342513,
+      "stop": 1671204342518
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671204342513,
+  "stop": 1671204342518
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "8f9fcaed-6f02-4edb-beef-66bab3342a46-tc-0-1019",
+  "name": "TestBL.TestManagerController.TestDeleteResponsibility",
+  "children": [
+    "483ea809-28e7-4328-b52e-e0576f6b8278-tr-0-1025"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671211482292,
+  "stop": 1671211482301
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "97b5f3c1-8fa2-4ae5-b087-27ed161e2a67-tc-0-1001",
+  "name": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "children": [
+    "5b291bd3-f311-4404-abf3-8d3d36e935a3-tr-0-1002"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1695479373973,
+  "stop": 1695479375904
+}

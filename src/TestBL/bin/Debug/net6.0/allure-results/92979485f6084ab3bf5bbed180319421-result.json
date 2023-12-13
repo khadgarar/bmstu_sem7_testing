@@ -1,0 +1,75 @@
+{
+  "uuid": "487b75e3-cbf1-4e8e-9fe9-1d54ad5a9d32-tr-0-1027",
+  "historyId": "TestBL.TestManagerController.TestAddResponsible",
+  "fullName": "TestBL.TestManagerController.TestAddResponsible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddResponsible"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddResponsible",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddResponsible"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddResponsible",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b85e11295c5a46b0a9d2f95beda3ded9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671799621479,
+      "stop": 1671799621488
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671799621479,
+  "stop": 1671799621488
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "44167829-c8d8-4264-a0da-a2f5450e35f6-tc-0-1044",
+  "name": "TestBL.TestUserController.TestGetUser",
+  "children": [
+    "a511c230-bcda-4dc7-abde-5f9861d14276-tr-0-1045"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1695479372548,
+  "stop": 1695479372558
+}

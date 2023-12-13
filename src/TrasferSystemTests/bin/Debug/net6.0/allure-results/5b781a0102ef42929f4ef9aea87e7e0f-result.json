@@ -1,0 +1,75 @@
+{
+  "uuid": "40f2107c-9549-40a8-9061-40433969c3e1-tr-0-1028",
+  "historyId": "TrasferSystemTests.TestObjectiveRepository.TestGetSubObjectives",
+  "fullName": "TrasferSystemTests.TestObjectiveRepository.TestGetSubObjectives",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetSubObjectives"
+    },
+    {
+      "name": "testClass",
+      "value": "TestObjectiveRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetSubObjectives",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetSubObjectives"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetSubObjectives",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "81c0b3d8ddf84919a60aa794be63256e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671799058915,
+      "stop": 1671799058940
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671799058915,
+  "stop": 1671799058941
+}

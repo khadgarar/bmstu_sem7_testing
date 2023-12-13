@@ -1,0 +1,78 @@
+{
+  "uuid": "b8f076c2-7e24-4f28-986a-1324b9b474ca-tr-0-1002",
+  "historyId": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "fullName": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "MakeCompanyWithTaskAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETest"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "MakeCompanyWithTaskAndEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetWorkplaces Company\r\n  Expected: 2\r\n  But was:  5\r\n",
+    "trace": "   at E2ETest.E2ETest.ChooseWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 79\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "MakeCompanyWithTaskAndEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetWorkplaces Company\r\n  Expected: 2\r\n  But was:  5\r\n",
+        "trace": "   at E2ETest.E2ETest.ChooseWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 79\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 39\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4ead45c168164fe3a1216cb05957b6a9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702491118515,
+      "stop": 1702491120352
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702491118515,
+  "stop": 1702491120355
+}

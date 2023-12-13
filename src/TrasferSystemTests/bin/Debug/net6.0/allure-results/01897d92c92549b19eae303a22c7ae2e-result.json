@@ -1,0 +1,78 @@
+{
+  "uuid": "60564c85-57a2-4b3d-b152-2447ea56edc2-tr-0-1027",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByObjectiveAndEmployee",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByObjectiveAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByObjectiveAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByObjectiveAndEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ComponentAccessToDB.ResponsibilityAddException : ResponsibilityAdd\r\n  ----> Microsoft.EntityFrameworkCore.DbUpdateException : An error occurred while updating the entries. See the inner exception for details.\r\n  ----> Npgsql.PostgresException : 23503: INSERT или UPDATE в таблице \"responsibility\" нарушает ограничение внешнего ключа \"responsibility_employee_fkey\"\r\nData:\r\n  Severity: ОШИБКА\r\n  InvariantSeverity: ERROR\r\n  SqlState: 23503\r\n  MessageText: INSERT или UPDATE в таблице \"responsibility\" нарушает ограничение внешнего ключа \"responsibility_employee_fkey\"\r\n  Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.\r\n  SchemaName: public\r\n  TableName: responsibility\r\n  ConstraintName: responsibility_employee_fkey\r\n  File: ri_triggers.c\r\n  Line: 2607\r\n  Routine: ri_ReportViolation",
+    "trace": "   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 31\r\n   at TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByObjectiveAndEmployee() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 100\r\n--DbUpdateException\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()\r\n   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 27\r\n--PostgresException\r\n   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult()\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.ExecuteReader()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByObjectiveAndEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "ComponentAccessToDB.ResponsibilityAddException : ResponsibilityAdd\r\n  ----> Microsoft.EntityFrameworkCore.DbUpdateException : An error occurred while updating the entries. See the inner exception for details.\r\n  ----> Npgsql.PostgresException : 23503: INSERT или UPDATE в таблице \"responsibility\" нарушает ограничение внешнего ключа \"responsibility_employee_fkey\"\r\nData:\r\n  Severity: ОШИБКА\r\n  InvariantSeverity: ERROR\r\n  SqlState: 23503\r\n  MessageText: INSERT или UPDATE в таблице \"responsibility\" нарушает ограничение внешнего ключа \"responsibility_employee_fkey\"\r\n  Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.\r\n  SchemaName: public\r\n  TableName: responsibility\r\n  ConstraintName: responsibility_employee_fkey\r\n  File: ri_triggers.c\r\n  Line: 2607\r\n  Routine: ri_ReportViolation",
+        "trace": "   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 31\r\n   at TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByObjectiveAndEmployee() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 100\r\n--DbUpdateException\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()\r\n   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in D:\\VisualStudioProjects\\db-course\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 27\r\n--PostgresException\r\n   at Npgsql.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|194_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult()\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)\r\n   at System.Data.Common.DbCommand.ExecuteReader()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aa777c7d6f824d599e769841ba914ff3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671208529578,
+      "stop": 1671208529584
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671208529578,
+  "stop": 1671208529584
+}

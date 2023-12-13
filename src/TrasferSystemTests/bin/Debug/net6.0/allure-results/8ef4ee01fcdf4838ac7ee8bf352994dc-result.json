@@ -1,0 +1,78 @@
+{
+  "uuid": "6f647b95-787b-4dc9-8168-ad947b3702e1-tr-0-1034",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestDelete",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestDelete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDelete"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDelete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Responsibility was not deleted\r\n  Expected: null\r\n  But was:  <ComponentBuisinessLogic.Responsibility>\r\n",
+    "trace": "   at TrasferSystemTests.TestResponsibilityRepository.TestDelete() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 90\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDelete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Responsibility was not deleted\r\n  Expected: null\r\n  But was:  <ComponentBuisinessLogic.Responsibility>\r\n",
+        "trace": "   at TrasferSystemTests.TestResponsibilityRepository.TestDelete() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 90\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c4f19b6f5dd48dca7bdce5598529b49-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671798375386,
+      "stop": 1671798375403
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671798375386,
+  "stop": 1671798375403
+}

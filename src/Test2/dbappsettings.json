@@ -1,0 +1,9 @@
+{
+  "Connections": {
+    "ConnectAsEmployee": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=password",
+    "ConnectAsResponsible": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=password",
+    "ConnectAsManager": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=password",
+    "ConnectAsHR": "Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=password"
+  },
+  "Logger": "Logfile.txt"
+}

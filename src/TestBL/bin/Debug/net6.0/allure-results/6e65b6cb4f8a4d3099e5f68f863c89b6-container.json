@@ -1,0 +1,12 @@
+{
+  "uuid": "e4c8036f-406c-4b01-914a-97edec35b373-tc-0-1017",
+  "name": "TestBL.TestHRController.TestDeleteEmployee",
+  "children": [
+    "32c37b47-1c4d-433c-9d7a-96032b971c49-tr-0-1021"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671796354025,
+  "stop": 1671796354033
+}

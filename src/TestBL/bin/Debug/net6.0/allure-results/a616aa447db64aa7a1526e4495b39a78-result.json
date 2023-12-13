@@ -1,0 +1,75 @@
+{
+  "uuid": "0bdddc42-e171-4a37-bb4a-38d7114c79be-tr-0-1005",
+  "historyId": "TestBL.TestEmployeeController.TestGetAllDepartments",
+  "fullName": "TestBL.TestEmployeeController.TestGetAllDepartments",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllDepartments"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllDepartments",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllDepartments"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllDepartments",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b38f500f20064da88d915dc981b3e383-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702487499190,
+      "stop": 1702487499464
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702487499189,
+  "stop": 1702487499468
+}

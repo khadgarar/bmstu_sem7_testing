@@ -1,0 +1,75 @@
+{
+  "uuid": "5312e9a2-4007-4a08-8926-4b84bc18549f-tr-0-1002",
+  "historyId": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "fullName": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "MakeCompanyWithTaskAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETest"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "MakeCompanyWithTaskAndEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "MakeCompanyWithTaskAndEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "MakeCompanyWithTaskAndEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ddd5f0b611234fffb8b51a29f68d85c3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702494628731,
+      "stop": 1702494631332
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702494628731,
+  "stop": 1702494631336
+}

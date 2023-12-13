@@ -1,0 +1,12 @@
+{
+  "uuid": "8761e640-9bfe-4db1-aa59-1dc3619a39e6-tc-0-1008",
+  "name": "TestBL.TestFounderController.TestUpdateCompany",
+  "children": [
+    "962a728c-c24b-49db-9c99-d08d20e292b3-tr-0-1012"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671206327101,
+  "stop": 1671206327115
+}

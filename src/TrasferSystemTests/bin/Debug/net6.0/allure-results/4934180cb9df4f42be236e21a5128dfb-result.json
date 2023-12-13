@@ -1,0 +1,78 @@
+{
+  "uuid": "abaa1e25-3d12-447a-a8b4-4927f64ceb28-tr-0-1013",
+  "historyId": "TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany",
+  "fullName": "TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetDepartmentsByCompany"
+    },
+    {
+      "name": "testClass",
+      "value": "TestDepartmentRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetDepartmentsByCompany",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : An exception has been raised that is likely due to a transient failure.\r\n  ----> Npgsql.NpgsqlException : Exception while connecting\r\n  ----> System.Net.Sockets.SocketException : Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.",
+    "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at lambda_method187(Closure , QueryContext )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)\r\n   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)\r\n   at ComponentAccessToDB.DepartmentRepository.Add(Department element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\DepartmentRepository.cs:line 19\r\n   at TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\TrasferSystemTests\\TestDepartmentRepository.cs:line 125\r\n--NpgsqlException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)\r\n   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.<>c__DisplayClass38_0.<<Rent>g__RentAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.<>c__DisplayClass41_0.<<Open>g__OpenAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n--SocketException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetDepartmentsByCompany",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : An exception has been raised that is likely due to a transient failure.\r\n  ----> Npgsql.NpgsqlException : Exception while connecting\r\n  ----> System.Net.Sockets.SocketException : Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.",
+        "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at lambda_method187(Closure , QueryContext )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)\r\n   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)\r\n   at ComponentAccessToDB.DepartmentRepository.Add(Department element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\DepartmentRepository.cs:line 19\r\n   at TrasferSystemTests.TestDepartmentRepository.TestGetDepartmentsByCompany() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\TrasferSystemTests\\TestDepartmentRepository.cs:line 125\r\n--NpgsqlException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)\r\n   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.<>c__DisplayClass38_0.<<Rent>g__RentAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.<>c__DisplayClass41_0.<<Open>g__OpenAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n--SocketException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "228b9d9f5f864d1989f2fdd6b08fa8ee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695478018171,
+      "stop": 1695478022232
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695478018171,
+  "stop": 1695478022232
+}

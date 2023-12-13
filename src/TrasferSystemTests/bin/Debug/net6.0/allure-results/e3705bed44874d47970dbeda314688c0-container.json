@@ -1,0 +1,12 @@
+{
+  "uuid": "d73aa2a6-4f69-4d84-b645-b919730be1c0-tc-0-1001",
+  "name": "TrasferSystemTests.TestCompanyRepository.TestAdd",
+  "children": [
+    "0aec6d02-9820-4353-a18c-fe7a642de008-tr-0-1002"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671894225136,
+  "stop": 1671894227027
+}

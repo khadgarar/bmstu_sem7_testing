@@ -1,0 +1,78 @@
+{
+  "uuid": "7602c37e-4866-4c3b-a797-ad5157d6e0b2-tr-0-1021",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByWorkplace",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByWorkplace",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetEmployeeByWorkplace"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetEmployeeByWorkplace",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Not equal found Employee\r\n  Expected: 3\r\n  But was:  2\r\n",
+    "trace": "   at TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByWorkplace() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 157\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetEmployeeByWorkplace",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Not equal found Employee\r\n  Expected: 3\r\n  But was:  2\r\n",
+        "trace": "   at TrasferSystemTests.TestEmployeeRepository.TestGetEmployeeByWorkplace() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 157\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "06f5497d19e94083b1d61b53800409ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671798375071,
+      "stop": 1671798375164
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671798375071,
+  "stop": 1671798375164
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "07aca2d6-a258-4b28-8d4b-af57ee17320c-tr-0-1002",
+  "historyId": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "fullName": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "MakeCompanyWithTaskAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETest"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "MakeCompanyWithTaskAndEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddEmployee Permission_\r\n  Expected: 4\r\n  But was:  1\r\n",
+    "trace": "   at E2ETest.E2ETest.AddEmployee() in D:\\VisualStudioProjects\\db-course\\src\\E2ETest\\E2ETest.cs:line 111\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in D:\\VisualStudioProjects\\db-course\\src\\E2ETest\\E2ETest.cs:line 42\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "MakeCompanyWithTaskAndEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddEmployee Permission_\r\n  Expected: 4\r\n  But was:  1\r\n",
+        "trace": "   at E2ETest.E2ETest.AddEmployee() in D:\\VisualStudioProjects\\db-course\\src\\E2ETest\\E2ETest.cs:line 111\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in D:\\VisualStudioProjects\\db-course\\src\\E2ETest\\E2ETest.cs:line 42\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ab61fd1322cb416e8d1790098ff12706-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671906795450,
+      "stop": 1671906797330
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671906795449,
+  "stop": 1671906797333
+}

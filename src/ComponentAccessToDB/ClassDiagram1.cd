@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComponentAccessToDB.UserRepository">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAASAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.ResponsibilityRepository">
+    <Position X="3.75" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AQYAAAAAACCQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\ResponsibilityRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.ObjectiveRepository">
+    <Position X="7" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAACCAQAAAAAAAAAAAAAAEAACAAggAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\ObjectiveRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.EmployeeRepository">
+    <Position X="2" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAYAABAAACAQAEAAAAgAIAAAAAEAAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\EmployeeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.DepartmentRepository">
+    <Position X="4.5" Y="10.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAYAACAAACAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\DepartmentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.CompanyRepository">
+    <Position X="7" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAaAAAAAACAQAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>RepositoryImplementation\CompanyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ComponentAccessToDB.CompanyDB">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAEAAAGAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModelsDB\CompanyDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentAccessToDB.DepartmentDB">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAEAAAEAAAAAACQAAgAAAAAAABAAAAAA=</HashCode>
+      <FileName>ModelsDB\DepartmentDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentAccessToDB.EmployeeDB">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAIAgAAAABAAAAgAEAAAAAAAAAAABAACAAA=</HashCode>
+      <FileName>ModelsDB\EmployeeDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentAccessToDB.ObjectiveDB">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgEAEABAAAABAEAAAAAICACAAhAgAAAA=</HashCode>
+      <FileName>ModelsDB\ObjectiveDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentAccessToDB.ResponsibilityDB">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAEAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ModelsDB\ResponsibilityDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ComponentAccessToDB.UserDB">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAADAAAAAACAAAwAAAAAAA=</HashCode>
+      <FileName>ModelsDB\UserDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

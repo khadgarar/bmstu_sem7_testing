@@ -1,0 +1,75 @@
+{
+  "uuid": "de98775f-5e34-4d4e-92ea-6ca4275cb7ff-tr-0-1035",
+  "historyId": "TestBL.TestNotAuthController.TestGetUserByLoginNull",
+  "fullName": "TestBL.TestNotAuthController.TestGetUserByLoginNull",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetUserByLoginNull"
+    },
+    {
+      "name": "testClass",
+      "value": "TestNotAuthController"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetUserByLoginNull",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetUserByLoginNull"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetUserByLoginNull",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "42fca01a52d04d008045aac0c4a138a0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671799621557,
+      "stop": 1671799621559
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671799621557,
+  "stop": 1671799621559
+}

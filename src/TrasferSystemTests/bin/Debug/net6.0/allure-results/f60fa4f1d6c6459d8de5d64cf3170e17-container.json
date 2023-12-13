@@ -1,0 +1,12 @@
+{
+  "uuid": "d6f1b8e2-70fa-45f9-8ef9-033ad0cbe63a-tc-0-1014",
+  "name": "TrasferSystemTests.TestEmployeeRepository.TestDelete",
+  "children": [
+    "3d5b7c43-cebe-44dc-9079-d95c56653a12-tr-0-1018"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671897724603,
+  "stop": 1671897724617
+}

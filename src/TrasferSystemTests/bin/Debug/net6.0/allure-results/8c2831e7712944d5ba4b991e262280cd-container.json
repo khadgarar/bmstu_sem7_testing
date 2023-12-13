@@ -1,0 +1,12 @@
+{
+  "uuid": "af6dfba8-4560-471f-9df7-a2cac9507a73-tc-0-1014",
+  "name": "TrasferSystemTests.TestEmployeeRepository.GetResponsibleEmployees",
+  "children": [
+    "7a1c95ce-d3fb-41ae-be13-4905a3c6eeed-tr-0-1020"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1671894460052,
+  "stop": 1671894460145
+}

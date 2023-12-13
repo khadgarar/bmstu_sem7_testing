@@ -1,0 +1,78 @@
+{
+  "uuid": "5a88ed92-4160-47b3-9657-5a367ab26e90-tr-0-1036",
+  "historyId": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee",
+  "fullName": "TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestResponsibilityRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : Sequence contains no elements.",
+    "trace": "   at lambda_method656(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at lambda_method657(Closure , QueryContext )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)\r\n   at System.Linq.Queryable.Max[TSource,TResult](IQueryable`1 source, Expression`1 selector)\r\n   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 20\r\n   at TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 120"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Sequence contains no elements.",
+        "trace": "   at lambda_method656(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)\r\n   at lambda_method657(Closure , QueryContext )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)\r\n   at System.Linq.Queryable.Max[TSource,TResult](IQueryable`1 source, Expression`1 selector)\r\n   at ComponentAccessToDB.ResponsibilityRepository.Add(Responsibility element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ResponsibilityRepository.cs:line 20\r\n   at TrasferSystemTests.TestResponsibilityRepository.TestGetResponsibilityByEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestResponsibilityRepository.cs:line 120"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8d0f72f0bf4e4644824314c6a7ce3894-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1702494631891,
+      "stop": 1702494631905
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1702494631891,
+  "stop": 1702494631905
+}

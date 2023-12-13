@@ -1,0 +1,12 @@
+{
+  "uuid": "802c8dd2-2d49-40ca-ac64-013c3d752b38-tc-0-1022",
+  "name": "TestBL.TestManagerController.TestUpdateObjective",
+  "children": [
+    "24c547fd-869e-43b8-8f37-4980af7dbef5-tr-0-1024"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1701004036314,
+  "stop": 1701004036319
+}

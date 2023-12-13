@@ -1,0 +1,78 @@
+{
+  "uuid": "30028ab7-3afa-48cc-bee8-b39c88b16575-tr-0-1002",
+  "historyId": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "fullName": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "MakeCompanyWithTaskAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETest"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "MakeCompanyWithTaskAndEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  AddCompany Title\r\n  String lengths are both 6. Strings differ at index 0.\r\n  Expected: \"qoollo\"\r\n  But was:  \"Qoollo\"\r\n  -----------^\r\n",
+    "trace": "   at E2ETest.E2ETest.CreateCompany() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 58\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 38\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "MakeCompanyWithTaskAndEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  AddCompany Title\r\n  String lengths are both 6. Strings differ at index 0.\r\n  Expected: \"qoollo\"\r\n  But was:  \"Qoollo\"\r\n  -----------^\r\n",
+        "trace": "   at E2ETest.E2ETest.CreateCompany() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 58\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 38\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b5a6ac31f8c24bb89ba80dae7f8eb5bc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1701007065876,
+      "stop": 1701007067677
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1701007065875,
+  "stop": 1701007067681
+}

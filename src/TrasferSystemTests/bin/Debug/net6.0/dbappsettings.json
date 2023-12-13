@@ -1,0 +1,12 @@
+{
+  "Connections": {
+    "ConnectAsNotauth": "Host=localhost;Port=5432;Database=test;Username=notauth_role;Password=notauth",
+    "ConnectAsUser": "Host=localhost;Port=5432;Database=test;Username=user_role;Password=user",
+    "ConnectAsEmployee": "Host=localhost;Port=5432;Database=test;Username=employee_role;Password=employee",
+    "ConnectAsResponsible": "Host=localhost;Port=5432;Database=test;Username=responsible_role;Password=responsible",
+    "ConnectAsManager": "Host=localhost;Port=5432;Database=test;Username=manager_role;Password=manager",
+    "ConnectAsFounder": "Host=localhost;Port=5432;Database=test;Username=founder_role;Password=founder",
+    "ConnectAsHR": "Host=localhost;Port=5432;Database=test;Username=hr_role;Password=hr"
+  },
+  "Logger": "Logfile.txt"
+}

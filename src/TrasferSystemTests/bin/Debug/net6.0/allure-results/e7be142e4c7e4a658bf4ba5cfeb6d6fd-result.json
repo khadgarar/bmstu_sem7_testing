@@ -1,0 +1,78 @@
+{
+  "uuid": "a80a76c3-6876-4738-9697-7f2aa87bcb14-tr-0-1023",
+  "historyId": "TrasferSystemTests.TestObjectiveRepository.TestAdd",
+  "fullName": "TrasferSystemTests.TestObjectiveRepository.TestAdd",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-80K9MGAE"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAdd"
+    },
+    {
+      "name": "testClass",
+      "value": "TestObjectiveRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAdd",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Not equal Added Objective\r\n  Expected string length 9 but was 3. Strings differ at index 0.\r\n  Expected: \"Make bugs\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+    "trace": "   at TrasferSystemTests.TestObjectiveRepository.TestAdd() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestObjectiveRepository.cs:line 31\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAdd",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Not equal Added Objective\r\n  Expected string length 9 but was 3. Strings differ at index 0.\r\n  Expected: \"Make bugs\"\r\n  But was:  \"heh\"\r\n  -----------^\r\n",
+        "trace": "   at TrasferSystemTests.TestObjectiveRepository.TestAdd() in D:\\VisualStudioProjects\\db-course\\src\\TrasferSystemTests\\TestObjectiveRepository.cs:line 31\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6f392dcfcd614053b3a9884e4be3f60e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1671894254892,
+      "stop": 1671894257132
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1671894254891,
+  "stop": 1671894257136
+}

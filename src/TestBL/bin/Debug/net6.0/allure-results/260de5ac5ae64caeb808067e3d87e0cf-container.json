@@ -1,0 +1,12 @@
+{
+  "uuid": "1d70c39b-5bb6-4c7a-957b-6fe2bcd34359-tc-0-1022",
+  "name": "TestBL.TestManagerController.TestAddObjective",
+  "children": [
+    "d106097a-947a-44b4-ab7c-1e93e0cde752-tr-0-1023"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1702490714093,
+  "stop": 1702490714098
+}

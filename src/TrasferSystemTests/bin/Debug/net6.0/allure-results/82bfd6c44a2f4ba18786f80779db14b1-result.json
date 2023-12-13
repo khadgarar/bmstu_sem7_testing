@@ -1,0 +1,78 @@
+{
+  "uuid": "83e348eb-3e9e-4171-a419-a91dc01198d4-tr-0-1041",
+  "historyId": "TrasferSystemTests.TestUserRepository.TestDelete",
+  "fullName": "TrasferSystemTests.TestUserRepository.TestDelete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDelete"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserRepository"
+    },
+    {
+      "name": "owner",
+      "value": "alax"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDelete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ComponentAccessToDB.UserAddException : UserAdd\r\n  ----> System.InvalidOperationException : An exception has been raised that is likely due to a transient failure.\r\n  ----> Npgsql.NpgsqlException : Exception while connecting\r\n  ----> System.Net.Sockets.SocketException : Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.",
+    "trace": "   at ComponentAccessToDB.UserRepository.Add(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 27\r\n   at TrasferSystemTests.TestUserRepository.TestDelete() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\TrasferSystemTests\\TestUserRepository.cs:line 90\r\n--InvalidOperationException\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()\r\n   at ComponentAccessToDB.UserRepository.Add(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 23\r\n--NpgsqlException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)\r\n   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.<>c__DisplayClass38_0.<<Rent>g__RentAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.<>c__DisplayClass41_0.<<Open>g__OpenAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction()\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n--SocketException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDelete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "ComponentAccessToDB.UserAddException : UserAdd\r\n  ----> System.InvalidOperationException : An exception has been raised that is likely due to a transient failure.\r\n  ----> Npgsql.NpgsqlException : Exception while connecting\r\n  ----> System.Net.Sockets.SocketException : Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.",
+        "trace": "   at ComponentAccessToDB.UserRepository.Add(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 27\r\n   at TrasferSystemTests.TestUserRepository.TestDelete() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\TrasferSystemTests\\TestUserRepository.cs:line 90\r\n--InvalidOperationException\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)\r\n   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()\r\n   at ComponentAccessToDB.UserRepository.Add(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\Архивы\\Алахов\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 23\r\n--NpgsqlException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)\r\n   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)\r\n   at Npgsql.ConnectorPool.<>c__DisplayClass38_0.<<Rent>g__RentAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.<>c__DisplayClass41_0.<<Open>g__OpenAsync|0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Npgsql.NpgsqlConnection.Open()\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction()\r\n   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)\r\n   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)\r\n   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)\r\n   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)\r\n--SocketException\r\n   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "66ad9d0b4a5e44fabfd3f771a53168b5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1695478111909,
+      "stop": 1695478115981
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1695478111909,
+  "stop": 1695478115981
+}
