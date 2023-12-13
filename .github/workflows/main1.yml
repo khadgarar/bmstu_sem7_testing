@@ -1,0 +1,109 @@
+name: .NET
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  Testing:
+
+    runs-on: ubuntu-latest
+
+    # service containers to run with `postgres-job`
+    services:
+      # label used to access the service container
+      postgres:
+        # Docker Hub image
+        image: postgres:latest
+        # service environment variables
+        # `POSTGRES_HOST` is `postgres`
+        env:
+          # required
+          POSTGRES_PASSWORD: password
+
+        ports:
+          # maps tcp port 5432 on service container to the host
+          - 5432:5432
+        # set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+   
+    steps:
+    
+
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 6.0.*
+
+    
+    - name: Restore dependencies TestBL
+      run: dotnet restore
+      working-directory: src/TestBL
+    - name: Build TestBL
+      run: dotnet build --no-restore                 
+      working-directory: src/TestBL
+    - name: Unit TestBL
+      run: dotnet test TestBL --no-build --verbosity normal
+      working-directory: src
+
+    - name: System uodate
+      run: sudo apt update
+    - name: Install Postgresql
+      run: sudo apt install postgresql postgresql-contrib
+    - name: Create DB
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password" -c "create database test"
+      working-directory: src
+    - name: Create tables
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <create.sql
+      working-directory: src
+    - name: Set users
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <users.sql
+      working-directory: src
+    - name: Fill DB
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <fill.sql
+      working-directory: src
+      
+    - name: Restore dependencies TrasferSystemTests
+      run: dotnet restore
+      working-directory: src/TrasferSystemTests
+    - name: Build TrasferSystemTests
+      run: dotnet build --no-restore                 
+      working-directory: src/TrasferSystemTests
+    - name: Unit TrasferSystemTests
+      run: dotnet test TrasferSystemTests
+      working-directory: src
+
+    - name: Restore dependencies IntegrationTests
+      run: dotnet restore
+      working-directory: src/IntegrationTests
+    - name: Build IntegrationTests
+      run: dotnet build --no-restore                 
+      working-directory: src/IntegrationTests
+    - name: Unit IntegrationTests
+      run: dotnet test IntegrationTests
+      working-directory: src
+    - name: Check
+      if: failure()
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
+      working-directory: src
+
+    - name: Restore dependencies E2ETest
+      run: dotnet restore
+      working-directory: src/E2ETest
+    - name: Build E2ETest
+      run: dotnet build --no-restore                 
+      working-directory: src/E2ETest
+    - name: Unit E2ETest
+      run: dotnet test E2ETest
+      working-directory: src
+    - name: Check
+      if: failure()
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
+      working-directory: src
