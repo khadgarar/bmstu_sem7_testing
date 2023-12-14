@@ -23,10 +23,10 @@ jobs:
           # required
           POSTGRES_PASSWORD: password
         volumes:
-          - src/E2ETest1/bin/Debug/net6.0/allure-results:src/E2ETest/bin/Debug/net6.0/allure-results
-          - src/IntegrationTests1/bin/Debug/net6.0/allure-results:src/IntegrationTests/bin/Debug/net6.0/allure-results
-          - src/TestBL1/bin/Debug/net6.0/allure-results:src/TestBL/bin/Debug/net6.0/allure-results
-          - src/TrasferSystemTests1/bin/Debug/net6.0/allure-results:src/TrasferSystemTests/bin/Debug/net6.0/allure-results
+          - src/E2ETest/bin/Debug/net6.0/allure-results:/src/E2ETest/bin/Debug/net6.0/allure-results
+          - src/IntegrationTests/bin/Debug/net6.0/allure-results:/src/IntegrationTests/bin/Debug/net6.0/allure-results
+          - src/TestBL/bin/Debug/net6.0/allure-results:/src/TestBL/bin/Debug/net6.0/allure-results
+          - src/TrasferSystemTests/bin/Debug/net6.0/allure-results:/src/TrasferSystemTests/bin/Debug/net6.0/allure-results
         ports:
           # maps tcp port 5432 on service container to the host
           - 5432:5432
