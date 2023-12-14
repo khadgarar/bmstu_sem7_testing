@@ -22,11 +22,6 @@ jobs:
         env:
           # required
           POSTGRES_PASSWORD: password
-        volumes:
-          - /src/E2ETest/bin/Debug/net6.0/allure-results:/src/E2ETest/bin/Debug/net6.0/allure-results
-          - /src/IntegrationTests/bin/Debug/net6.0/allure-results:/src/IntegrationTests/bin/Debug/net6.0/allure-results
-          - /src/TestBL/bin/Debug/net6.0/allure-results:/src/TestBL/bin/Debug/net6.0/allure-results
-          - /src/TrasferSystemTests/bin/Debug/net6.0/allure-results:/src/TrasferSystemTests/bin/Debug/net6.0/allure-results
         ports:
           # maps tcp port 5432 on service container to the host
           - 5432:5432
@@ -107,6 +102,14 @@ jobs:
     - name: Unit E2ETest
       run: dotnet test E2ETest
       working-directory: src
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: |
+          /src/E2ETest/bin/Debug/net6.0/allure-results/
+          /src/IntegrationTests/bin/Debug/net6.0/allure-results/
+          /src/TestBL/bin/Debug/net6.0/allure-results/
+          /src/TrasferSystemTests/bin/Debug/net6.0/allure-results/
     - name: Check
       if: failure()
       run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
