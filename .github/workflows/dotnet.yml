@@ -106,7 +106,7 @@ jobs:
       with:
         name: my-artifact
         path: |
-          /src/E2ETest/bin/Debug/net6.0/allure-results/
+          /src/E2ETest/
           /src/IntegrationTests/bin/Debug/net6.0/allure-results/
           /src/TestBL/bin/Debug/net6.0/allure-results/
           /src/TrasferSystemTests/bin/Debug/net6.0/allure-results/
