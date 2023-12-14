@@ -31,7 +31,16 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-   
+      
+      allure:
+        image: "frankescobar/allure-docker-service"
+        env:
+          CHECK_RESULTS_EVERY_SECONDS: 1
+          KEEP_HISTORY: 1
+        ports:
+        - "5050:5050"
+        volumes:
+          - /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/IntegrationTests/bin/Debug/net6.0/allure-results/:/app/allure-results
     steps:
     
 
@@ -102,6 +111,7 @@ jobs:
     - name: Unit E2ETest
       run: dotnet test E2ETest
       working-directory: src
+    
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifact
@@ -118,6 +128,14 @@ jobs:
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TrasferSystemTests/bin/Debug/net6.0/allure-results/         
+    
+    - name: Copy results1
+      run: cp -a /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/E2ETest/bin/Debug/net6.0/allure-results/. /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/IntegrationTests/bin/Debug/net6.0/allure-results/
+    - name: Copy results2
+      run: cp -a /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TestBL/bin/Debug/net6.0/allure-results/. /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/IntegrationTests/bin/Debug/net6.0/allure-results/
+    - name: Copy results3
+      run: cp -a /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TrasferSystemTests/bin/Debug/net6.0/allure-results/. /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/IntegrationTests/bin/Debug/net6.0/allure-results/   
+    
     - name: Check
       if: failure()
       run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
