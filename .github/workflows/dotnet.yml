@@ -107,18 +107,22 @@ jobs:
       run: dotnet test E2ETest
       working-directory: src
     - uses: actions/upload-artifact@v3
+      if: always()
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/E2ETest/bin/Debug/net6.0/allure-results/
     - uses: actions/upload-artifact@v3
+      if: always()
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/IntegrationTests/bin/Debug/net6.0/allure-results/    
     - uses: actions/upload-artifact@v3
+      if: always()
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TestBL/bin/Debug/net6.0/allure-results/     
     - uses: actions/upload-artifact@v3
+      if: always()
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TrasferSystemTests/bin/Debug/net6.0/allure-results/         
