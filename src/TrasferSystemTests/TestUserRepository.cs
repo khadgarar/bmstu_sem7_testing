@@ -26,7 +26,7 @@ namespace TrasferSystemTests
             User checkUser1 = rep.GetUserByLogin("Mukhamediev");
 
             Assert.IsNotNull(checkUser1, "Users was not added");
-            Assert.AreEqual("Mukhamediev", checkUser1.Login, "Not equal Added User");
+            Assert.AreEqual("Mukhamedievvv", checkUser1.Login, "Not equal Added User");
             Assert.AreEqual("qwerty", checkUser1.Password_, "Not equal Added User");
             Assert.AreEqual("Joe", checkUser1.Name_, "Not equal Added User");
             Assert.AreEqual("Biden", checkUser1.Surname, "Not equal Added User");
