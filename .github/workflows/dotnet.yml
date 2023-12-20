@@ -78,6 +78,10 @@ jobs:
     - name: Unit TrasferSystemTests
       run: dotnet test TrasferSystemTests
       working-directory: src
+    - name: Check
+      if: failure()
+      run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
+      working-directory: src  
 
     - name: Restore dependencies IntegrationTests
       run: dotnet restore
