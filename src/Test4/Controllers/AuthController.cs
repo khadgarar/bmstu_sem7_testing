@@ -68,7 +68,7 @@ namespace Test4.Controllers
             return BadRequest();
         }
 
-        [HttpGet]
+        [HttpGet("/auths/logout")]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();

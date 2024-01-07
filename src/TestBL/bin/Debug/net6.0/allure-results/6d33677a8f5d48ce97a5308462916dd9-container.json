@@ -1,0 +1,12 @@
+{
+  "uuid": "874175ee-b891-4f6f-b222-c537e50390b1-tc-0-1022",
+  "name": "TestBL.TestManagerController.AddDepartment",
+  "children": [
+    "3c16174d-c8c3-485f-95d1-0414d00e970d-tr-0-1030"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622985885,
+  "stop": 1704622985891
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "ef3a153d-bdd7-4577-b1d1-3478775f06c6-tc-0-1022",
+  "name": "TestBL.TestManagerController.DeleteDepartment",
+  "children": [
+    "c57206b8-c967-41ac-ab4a-ed9f0246871a-tr-0-1032"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1703085646865,
+  "stop": 1703085646879
+}

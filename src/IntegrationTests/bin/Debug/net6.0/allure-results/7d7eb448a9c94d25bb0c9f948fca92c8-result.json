@@ -1,0 +1,78 @@
+{
+  "uuid": "8779d0c3-7220-4bb7-a1c3-5257c46b0a80-tr-0-1003",
+  "historyId": "IntegrationTests.IntTestEmployeeController.TestGetWorkplace",
+  "fullName": "IntegrationTests.IntTestEmployeeController.TestGetWorkplace",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorkplace"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetWorkplace",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+    "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()\r\n   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_EntityFinderFactory()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_Finder()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)\r\n   at ComponentAccessToDB.CompanyRepository.GetCompanyByID(Int32 companyid) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\CompanyRepository.cs:line 79\r\n   at ComponentBuisinessLogic.EmployeeController.GetWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 109\r\n   at IntegrationTests.IntTestEmployeeController.TestGetWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 61"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetWorkplace",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+        "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()\r\n   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_EntityFinderFactory()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_Finder()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)\r\n   at ComponentAccessToDB.CompanyRepository.GetCompanyByID(Int32 companyid) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\CompanyRepository.cs:line 79\r\n   at ComponentBuisinessLogic.EmployeeController.GetWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 109\r\n   at IntegrationTests.IntTestEmployeeController.TestGetWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 61"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "28c06eb71270445f8d438f51cf10c92e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1703103200514,
+      "stop": 1703103200520
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1703103200514,
+  "stop": 1703103200520
+}

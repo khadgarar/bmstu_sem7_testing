@@ -1,0 +1,12 @@
+{
+  "uuid": "2d678c56-72a7-46f4-89cb-e8145db68938-tc-0-1030",
+  "name": "TrasferSystemTests.TestResponsibilityRepository.TestGetAll",
+  "children": [
+    "98b9525b-40ce-4156-b6ee-2daa3120a5c9-tr-0-1032"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1703091690557,
+  "stop": 1703091690633
+}

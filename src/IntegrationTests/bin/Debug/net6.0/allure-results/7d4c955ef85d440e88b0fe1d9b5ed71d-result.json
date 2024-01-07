@@ -1,0 +1,78 @@
+{
+  "uuid": "d56b0411-2d47-4687-9284-0d881e1141c9-tr-0-1044",
+  "historyId": "IntegrationTests.IntTestUserController.TestUpdateUser",
+  "fullName": "IntegrationTests.IntTestUserController.TestUpdateUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateUser"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+    "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()\r\n   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_EntityFinderFactory()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_Finder()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)\r\n   at ComponentAccessToDB.UserRepository.Update(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 43\r\n   at ComponentBuisinessLogic.UserController.UpdateUser(String password_, String name_, String surname) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\UserController.cs:line 76\r\n   at IntegrationTests.IntTestUserController.TestUpdateUser() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestUserController.cs:line 107"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+        "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()\r\n   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_EntityFinderFactory()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_Finder()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Find(Object[] keyValues)\r\n   at ComponentAccessToDB.UserRepository.Update(User element) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\UserRepository.cs:line 43\r\n   at ComponentBuisinessLogic.UserController.UpdateUser(String password_, String name_, String surname) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\UserController.cs:line 76\r\n   at IntegrationTests.IntTestUserController.TestUpdateUser() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestUserController.cs:line 107"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d9914dca9337461ba5fb2668f86d77be-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1703103200892,
+      "stop": 1703103200895
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1703103200892,
+  "stop": 1703103200895
+}

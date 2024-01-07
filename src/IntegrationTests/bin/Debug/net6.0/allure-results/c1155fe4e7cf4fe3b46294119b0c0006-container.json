@@ -1,0 +1,12 @@
+{
+  "uuid": "2c901989-148d-40ff-bbda-3d5ee1268ee0-tc-0-1033",
+  "name": "IntegrationTests.IntTestResponsibleController.TestUpdateObjective",
+  "children": [
+    "477b8562-0805-44a1-add5-16d30f7aabd9-tr-0-1035"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622529772,
+  "stop": 1704622529789
+}

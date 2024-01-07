@@ -1,4 +1,7 @@
-﻿namespace ComponentBuisinessLogic
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace ComponentBuisinessLogic
 {
     public class FounderController : ManagerController
     {
@@ -33,6 +36,12 @@
                                  _permission_: permission_);
             EmployeeRepository.Add(employee);
             return true;
+        }
+
+        public List<Responsibility> GetAllResponsibilities()
+        {
+            List<Responsibility> AllResponsibilities = ResponsibilityRepository.GetAll().ToList();
+            return AllResponsibilities;
         }
         public bool UpdateEmployee(int id, string user_, int permission_, int? department = -1)
         {

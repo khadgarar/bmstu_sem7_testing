@@ -1,0 +1,78 @@
+{
+  "uuid": "75e8694f-395e-473e-9436-f0a7b976fb72-tr-0-1002",
+  "historyId": "IntegrationTests.IntTestEmployeeController.TestGetAllObjectives",
+  "fullName": "IntegrationTests.IntTestEmployeeController.TestGetAllObjectives",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllObjectives"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllObjectives",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+    "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_Model()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at ComponentAccessToDB.ObjectiveRepository.GetAll() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ObjectiveRepository.cs:line 37\r\n   at ComponentBuisinessLogic.EmployeeController.GetAllObjectives() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 88\r\n   at IntegrationTests.IntTestEmployeeController.TestGetAllObjectives() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 34"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllObjectives",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+        "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_Model()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at ComponentAccessToDB.ObjectiveRepository.GetAll() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ObjectiveRepository.cs:line 37\r\n   at ComponentBuisinessLogic.EmployeeController.GetAllObjectives() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 88\r\n   at IntegrationTests.IntTestEmployeeController.TestGetAllObjectives() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "175e31dac7c94f67abd41c2132fe52fa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1703103200477,
+      "stop": 1703103200481
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1703103200477,
+  "stop": 1703103200481
+}

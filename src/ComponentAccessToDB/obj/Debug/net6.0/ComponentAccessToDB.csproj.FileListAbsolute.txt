@@ -101,7 +101,3 @@ C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\Compo
 C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\obj\Debug\net6.0\ComponentAccessToDB.pdb
 C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\obj\Debug\net6.0\ComponentAccessToDB.genruntimeconfig.cache
 C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\obj\Debug\net6.0\ref\ComponentAccessToDB.dll
-C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\bin\Debug\net6.0\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
-C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-C:\Users\ronec\Desktop\BMSTU_4Course\7semester\testing\TestingDbCourse\src\ComponentAccessToDB\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll

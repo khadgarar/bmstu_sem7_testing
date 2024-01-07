@@ -1,0 +1,12 @@
+{
+  "uuid": "fc7d20cb-e07c-4501-9059-5238bad8a275-tc-0-1009",
+  "name": "IntegrationTests.IntTestFounderController.TestUpdateCompany",
+  "children": [
+    "c4f2dbc3-7b24-4513-a594-b153168c7413-tr-0-1012"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622833129,
+  "stop": 1704622833135
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "29f17850-eb2c-4e1a-ad60-ded85228f084-tr-0-1034",
+  "historyId": "IntegrationTests.IntTestResponsibleController.TestAddSubObjective",
+  "fullName": "IntegrationTests.IntTestResponsibleController.TestAddSubObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddSubObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddSubObjective",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidCastException : Can't convert infinite date values to DateTime",
+    "trace": "   at Npgsql.TypeHandlers.DateTimeHandlers.DateHandler.Read(NpgsqlReadBuffer buf, Int32 len, FieldDescription fieldDescription)\r\n   at Npgsql.TypeHandling.NpgsqlSimpleTypeHandler`1.Read[TAny](NpgsqlReadBuffer buf, Int32 len, FieldDescription fieldDescription)\r\n   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)\r\n   at lambda_method434(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at ComponentAccessToDB.ObjectiveRepository.GetAll() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ObjectiveRepository.cs:line 37\r\n   at IntegrationTests.IntTestResponsibleController.TestAddSubObjective() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestResponsibleController.cs:line 39"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddSubObjective",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidCastException : Can't convert infinite date values to DateTime",
+        "trace": "   at Npgsql.TypeHandlers.DateTimeHandlers.DateHandler.Read(NpgsqlReadBuffer buf, Int32 len, FieldDescription fieldDescription)\r\n   at Npgsql.TypeHandling.NpgsqlSimpleTypeHandler`1.Read[TAny](NpgsqlReadBuffer buf, Int32 len, FieldDescription fieldDescription)\r\n   at Npgsql.NpgsqlDataReader.GetFieldValue[T](Int32 ordinal)\r\n   at Npgsql.NpgsqlDataReader.GetDateTime(Int32 ordinal)\r\n   at lambda_method434(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )\r\n   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()\r\n   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)\r\n   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)\r\n   at ComponentAccessToDB.ObjectiveRepository.GetAll() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\ObjectiveRepository.cs:line 37\r\n   at IntegrationTests.IntTestResponsibleController.TestAddSubObjective() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestResponsibleController.cs:line 39"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fb5cbce8849644d0887e1b854d9cdfbf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704622617376,
+      "stop": 1704622617428
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704622617376,
+  "stop": 1704622617428
+}

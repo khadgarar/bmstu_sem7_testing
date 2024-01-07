@@ -1,0 +1,12 @@
+{
+  "uuid": "e28cccc3-0ccd-4d45-93fb-b8ff28dd0d02-tc-0-1040",
+  "name": "IntegrationTests.IntTestUserController.TestUpdateUser",
+  "children": [
+    "21c78c7c-58b7-431f-a7fa-69eb4eb286b5-tr-0-1044"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704626346194,
+  "stop": 1704626346200
+}

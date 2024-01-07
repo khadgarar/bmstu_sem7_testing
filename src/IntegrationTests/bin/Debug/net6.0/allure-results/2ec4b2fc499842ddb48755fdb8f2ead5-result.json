@@ -1,0 +1,78 @@
+{
+  "uuid": "aaa5f6b5-22ed-4c50-8f47-ec33c84c805a-tr-0-1015",
+  "historyId": "IntegrationTests.IntTestHRController.TestGetResponsibleEmployees",
+  "fullName": "IntegrationTests.IntTestHRController.TestGetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestHRController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibleEmployees",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+    "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_Model()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()\r\n   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)\r\n   at ComponentAccessToDB.EmployeeRepository.GetResponsibleEmployees(Int32 tid) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\EmployeeRepository.cs:line 92\r\n   at ComponentBuisinessLogic.HRController.GetResponsibleEmployees(Int32 id) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\HRController.cs:line 20\r\n   at IntegrationTests.IntTestHRController.TestGetResponsibleEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestHRController.cs:line 34"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibleEmployees",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeLoadException : Method 'GetServiceProviderHashCode' in type 'ExtensionInfo' from assembly 'Npgsql.EntityFrameworkCore.PostgreSQL, Version=5.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7' does not have an implementation.",
+        "trace": "   at Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal.NpgsqlOptionsExtension.get_Info()\r\n   at Microsoft.EntityFrameworkCore.DbContextOptions.GetHashCode()\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)\r\n   at Microsoft.EntityFrameworkCore.Internal.ServiceProviderCache.GetOrAdd(IDbContextOptions options, Boolean providerRequired)\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()\r\n   at Microsoft.EntityFrameworkCore.DbContext.get_Model()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()\r\n   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)\r\n   at ComponentAccessToDB.EmployeeRepository.GetResponsibleEmployees(Int32 tid) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentAccessToDB\\RepositoryImplementation\\EmployeeRepository.cs:line 92\r\n   at ComponentBuisinessLogic.HRController.GetResponsibleEmployees(Int32 id) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\HRController.cs:line 20\r\n   at IntegrationTests.IntTestHRController.TestGetResponsibleEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestHRController.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5c6d55e09c5c41468134ade334a0addf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1703103200616,
+      "stop": 1703103200622
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1703103200616,
+  "stop": 1703103200623
+}

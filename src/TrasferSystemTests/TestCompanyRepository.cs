@@ -6,6 +6,10 @@ using System.Linq;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.InMemory;
+using Moq;
+using Microsoft.Data.Sqlite;
 
 namespace TrasferSystemTests
 {
@@ -17,36 +21,63 @@ namespace TrasferSystemTests
         [Test]
         public void TestAdd()
         {
-            var Company = new Company(_companyid: 2000, _title: "Qoollo", _foundationyear: 1994);
-            var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));
-            ICompanyRepository rep = new CompanyRepository(context);
-            rep.Add(Company);
+            var Company = new Company(_companyid: 2, _title: "Qoollo", _foundationyear: 1994);
 
-            Company checkCompany1 = rep.GetAll().Last();
+            //real DB attempt
+            //var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));
+            //ICompanyRepository rep = new CompanyRepository(context);
 
-            Assert.IsNotNull(checkCompany1, "Companys was not added");
-            Assert.AreEqual("Qoollo", checkCompany1.Title, "Not equal Added Company");
-            Assert.AreEqual(1994, checkCompany1.Foundationyear, "Not equal Added Company");
+            //mock attempt
+            //var context = new Mock<transfersystemContext>();
+            // CompanyDB t = CompanyConv.BltoDB(Company);
+            //context.Setup(x => x.Companies.Add(t)).Returns(t);
+            // ICompanyRepository rep = new CompanyRepository(context.Object);
 
-            rep.Delete(checkCompany1);
+
+            //in-memory attempt
+            // Создаем объект опций для In Memory Базы данных
+            var options = new DbContextOptionsBuilder<transfersystemContext>()
+                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .Options;
+
+            using (var context = new transfersystemContext(options))
+            {
+                ICompanyRepository rep = new CompanyRepository(context);
+
+                rep.Add(Company);
+
+                Company checkCompany1 = rep.GetAll().Last();
+
+                Assert.IsNotNull(checkCompany1, "Companys was not added");
+                Assert.AreEqual("Qoollo", checkCompany1.Title, "Not equal Added Company");
+                Assert.AreEqual(1994, checkCompany1.Foundationyear, "Not equal Added Company");
+
+                rep.Delete(checkCompany1);
+            }
         }
 
         [Test]
         public void TestGetAll()
         {
-            var Company = new Company(_companyid: 2000, _title: "Qoollo", _foundationyear: 1994);
-            var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));
 
-            ICompanyRepository rep = new CompanyRepository(context);
-            rep.Add(Company);
-            
-            List<Company> Companys = rep.GetAll();
+            var options = new DbContextOptionsBuilder<transfersystemContext>()
+                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .Options;
+            using (var context = new transfersystemContext(options))
+            {
+                var Company = new Company(_companyid: 2000, _title: "Qoollo", _foundationyear: 1994);
 
-            Assert.IsNotNull(Companys, "Can't find Companys");
-            Assert.AreEqual("Qoollo", Companys.Last().Title, "Not equal Added Company");
-            Assert.AreEqual(1994, Companys.Last().Foundationyear, "Not equal Added Company");
+                ICompanyRepository rep = new CompanyRepository(context);
+                rep.Add(Company);
 
-            rep.Delete(Companys.Last());
+                List<Company> Companys = rep.GetAll();
+
+                Assert.IsNotNull(Companys, "Can't find Companys");
+                Assert.AreEqual("Qoollo", Companys.Last().Title, "Not equal Added Company");
+                Assert.AreEqual(1994, Companys.Last().Foundationyear, "Not equal Added Company");
+
+                rep.Delete(Companys.Last());
+            }     
         }
 
         [Test]

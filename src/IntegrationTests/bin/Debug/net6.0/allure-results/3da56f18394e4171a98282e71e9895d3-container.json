@@ -1,0 +1,12 @@
+{
+  "uuid": "495b0424-9ad9-4015-809a-49edcc3e2815-tc-0-1014",
+  "name": "IntegrationTests.IntTestHRController.TestAddEmployee",
+  "children": [
+    "c3238edf-5e01-41b8-a187-c896de2b423c-tr-0-1016"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622721589,
+  "stop": 1704622721596
+}

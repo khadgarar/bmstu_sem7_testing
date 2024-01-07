@@ -1,5 +1,3 @@
-\c test
-
 delete from "company";
 delete from "department";
 delete from "employee";

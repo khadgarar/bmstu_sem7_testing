@@ -1,0 +1,12 @@
+{
+  "uuid": "e355d5f1-7041-48f8-8351-e47193c1db3b-tc-0-1033",
+  "name": "TestBL.TestNotAuthController.TestGetUserByLoginNull",
+  "children": [
+    "26174ac8-bbaf-4e33-8e50-4f7b217d0d83-tr-0-1035"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622770524,
+  "stop": 1704622770529
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "ee2d034a-b0d3-4967-a7f5-fd41d917e350-tc-0-1022",
+  "name": "TestBL.TestManagerController.UpdateDepartment",
+  "children": [
+    "94f6cac8-c689-4efa-9a84-06c08d79af40-tr-0-1031"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622477925,
+  "stop": 1704622477931
+}

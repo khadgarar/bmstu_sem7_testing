@@ -1,0 +1,12 @@
+{
+  "uuid": "6b4744ee-288f-42b2-9bb5-c4a782518bdd-tc-0-1029",
+  "name": "IntegrationTests.IntTestNotAuthController.TestGetUserByLogin",
+  "children": [
+    "c9e87d4c-f7b4-4e96-9b69-3dfca88ca74f-tr-0-1030"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622678850,
+  "stop": 1704622678858
+}

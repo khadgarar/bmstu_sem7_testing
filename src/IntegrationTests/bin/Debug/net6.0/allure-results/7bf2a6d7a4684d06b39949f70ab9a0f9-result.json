@@ -1,0 +1,78 @@
+{
+  "uuid": "548f6130-1da9-4992-9942-b26db504e8a5-tr-0-1037",
+  "historyId": "IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees",
+  "fullName": "IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibleEmployees",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetResponsibleEmployees Count\r\n  Expected: 3\r\n  But was:  1\r\n",
+    "trace": "   at IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestResponsibleController.cs:line 138\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibleEmployees",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetResponsibleEmployees Count\r\n  Expected: 3\r\n  But was:  1\r\n",
+        "trace": "   at IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestResponsibleController.cs:line 138\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "54638d69e97b426bbc979225fdeb6a13-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704622617489,
+      "stop": 1704622617500
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704622617489,
+  "stop": 1704622617500
+}

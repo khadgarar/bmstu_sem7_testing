@@ -1,0 +1,12 @@
+{
+  "uuid": "6444cfd2-f6d3-4442-bf56-ca146b53812f-tc-0-1044",
+  "name": "TestBL.TestUserController.TestDeleteUser",
+  "children": [
+    "7478ef0b-f5a8-44bf-be90-24194c6ce6b5-tr-0-1051"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1703103423116,
+  "stop": 1703103423154
+}

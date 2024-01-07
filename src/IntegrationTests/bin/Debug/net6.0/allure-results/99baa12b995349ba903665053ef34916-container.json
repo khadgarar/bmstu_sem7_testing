@@ -1,0 +1,12 @@
+{
+  "uuid": "a360051b-6889-4d87-8d92-3b2f5ab12c34-tc-0-1018",
+  "name": "IntegrationTests.IntTestManagerController.TestUpdateDepartment",
+  "children": [
+    "d459434c-e79c-4482-9a17-a2aa70b0840b-tr-0-1027"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622617325,
+  "stop": 1704622617336
+}

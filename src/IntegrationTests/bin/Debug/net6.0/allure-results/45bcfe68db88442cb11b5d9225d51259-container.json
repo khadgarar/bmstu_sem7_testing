@@ -1,0 +1,12 @@
+{
+  "uuid": "19112bd9-4065-47c6-aadb-09869c6cebaa-tc-0-1040",
+  "name": "IntegrationTests.IntTestUserController.TestGetEmployeeByWorkplace",
+  "children": [
+    "7bedc0d8-12d2-4431-9bc4-f85ec53e3418-tr-0-1043"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704622984521,
+  "stop": 1704622984525
+}

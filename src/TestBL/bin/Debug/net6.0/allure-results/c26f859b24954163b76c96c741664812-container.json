@@ -1,0 +1,12 @@
+{
+  "uuid": "1fe5a931-a926-495b-b754-9cb0b552f75f-tc-0-1037",
+  "name": "TestBL.TestResponsibleController.TestDeleteSubObjective",
+  "children": [
+    "6273c09f-9395-4746-9f3b-bba04ac7e5d2-tr-0-1040"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1702550680998,
+  "stop": 1702550681002
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "a0045fba-5464-4e35-b985-c29e49fac0e3-tr-0-1002",
+  "historyId": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "fullName": "E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "16"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "E2ETest"
+    },
+    {
+      "name": "testMethod",
+      "value": "MakeCompanyWithTaskAndEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "E2ETest"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "MakeCompanyWithTaskAndEmployee",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetWorkplaces Count\r\n  Expected: 2\r\n  But was:  3\r\n",
+    "trace": "   at E2ETest.E2ETest.AddAndEnterCompany(Company companytoadd, WorkplaceView workplacetoadd) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 65\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 45\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "MakeCompanyWithTaskAndEmployee",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetWorkplaces Count\r\n  Expected: 2\r\n  But was:  3\r\n",
+        "trace": "   at E2ETest.E2ETest.AddAndEnterCompany(Company companytoadd, WorkplaceView workplacetoadd) in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 65\r\n   at E2ETest.E2ETest.MakeCompanyWithTaskAndEmployee() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\E2ETest\\E2ETest.cs:line 45\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c90d68045b65466ea95e58adbb32a119-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1703093878005,
+      "stop": 1703093906756
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1703093878004,
+  "stop": 1703093906761
+}
