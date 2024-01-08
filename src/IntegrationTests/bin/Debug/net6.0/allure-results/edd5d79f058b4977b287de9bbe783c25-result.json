@@ -1,0 +1,75 @@
+{
+  "uuid": "61ed47bd-f309-49ca-a242-ae57353366a2-tr-0-1011",
+  "historyId": "IntegrationTests.IntTestFounderController.TestDeleteEmployee",
+  "fullName": "IntegrationTests.IntTestFounderController.TestDeleteEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestFounderController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6544544957c840e19be1f2c8b244ab58-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728174766,
+      "stop": 1704728174773
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728174766,
+  "stop": 1704728174773
+}

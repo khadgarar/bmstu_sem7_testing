@@ -1,0 +1,75 @@
+{
+  "uuid": "a60a0158-ee12-401e-922a-a0735368daf6-tr-0-1048",
+  "historyId": "TestBL.TestUserController.TestGetWorkplacesEmpty",
+  "fullName": "TestBL.TestUserController.TestGetWorkplacesEmpty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorkplacesEmpty"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetWorkplacesEmpty",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetWorkplacesEmpty"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetWorkplacesEmpty",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "30eafc81ac90456e95e7aa0285bfa23b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638883902,
+      "stop": 1704638883905
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638883902,
+  "stop": 1704638883905
+}

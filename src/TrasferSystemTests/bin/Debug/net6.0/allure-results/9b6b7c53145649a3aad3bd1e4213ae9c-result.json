@@ -1,0 +1,75 @@
+{
+  "uuid": "e7ddea42-4730-4f37-8958-87299c64ae15-tr-0-1015",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllLondon"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllLondon",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllLondon"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllLondon",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "09fb1fba6c154cd28996cb7a9b7fd606-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728458393,
+      "stop": 1704728458616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728458393,
+  "stop": 1704728458618
+}

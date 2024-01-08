@@ -1,0 +1,75 @@
+{
+  "uuid": "68d1ef83-6572-4eff-bbe0-22dd4e74f596-tr-0-1027",
+  "historyId": "IntegrationTests.IntTestManagerController.TestUpdateDepartment",
+  "fullName": "IntegrationTests.IntTestManagerController.TestUpdateDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateDepartment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestUpdateDepartment"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateDepartment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b6668c03b1974147a1a237d4bd35e368-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728508949,
+      "stop": 1704728508957
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728508949,
+  "stop": 1704728508957
+}

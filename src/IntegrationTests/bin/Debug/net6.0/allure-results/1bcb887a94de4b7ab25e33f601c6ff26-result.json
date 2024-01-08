@@ -1,0 +1,75 @@
+{
+  "uuid": "dd73bc34-97a8-4f5e-b69b-ff4c5b694788-tr-0-1016",
+  "historyId": "IntegrationTests.IntTestHRController.TestAddEmployee",
+  "fullName": "IntegrationTests.IntTestHRController.TestAddEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestHRController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "78eb26c39f364854a75b3e054740e4ec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728174781,
+      "stop": 1704728174787
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728174781,
+  "stop": 1704728174787
+}

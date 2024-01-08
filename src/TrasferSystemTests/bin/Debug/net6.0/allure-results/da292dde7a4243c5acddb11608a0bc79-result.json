@@ -1,0 +1,78 @@
+{
+  "uuid": "2fe03ffd-752c-45e0-8ab0-3f5e73ce82a4-tr-0-1015",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllLondon"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllLondon",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at ComponentBuisinessLogic.EmployeeController.GetAllEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 74\r\n   at TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 45"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllLondon",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at ComponentBuisinessLogic.EmployeeController.GetAllEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\ComponentBuisinessLogic\\Controllers\\EmployeeController.cs:line 74\r\n   at TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 45"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "52efd29a168840ddbe4eed7707eb74fe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728170361,
+      "stop": 1704728170816
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728170361,
+  "stop": 1704728170816
+}

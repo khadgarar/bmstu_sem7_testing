@@ -1,0 +1,75 @@
+{
+  "uuid": "30d5a4d3-d800-462e-9ea3-915adf0382ee-tr-0-1032",
+  "historyId": "IntegrationTests.IntTestNotAuthController.TestAddUser",
+  "fullName": "IntegrationTests.IntTestNotAuthController.TestAddUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddUser"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestNotAuthController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddUser"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "49c502aff20c46adaff977b764d31c0a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728174928,
+      "stop": 1704728174950
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728174928,
+  "stop": 1704728174950
+}

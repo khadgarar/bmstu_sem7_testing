@@ -1,0 +1,78 @@
+{
+  "uuid": "9b30fe51-4097-4a97-80a1-6cadae3857e1-tr-0-1015",
+  "historyId": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "fullName": "TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllLondon"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllLondon",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: <ComponentBuisinessLogic.EmployeeView>\r\n  But was:  1\r\n",
+    "trace": "   at TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 52\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllLondon",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: <ComponentBuisinessLogic.EmployeeView>\r\n  But was:  1\r\n",
+        "trace": "   at TrasferSystemTests.TestEmployeeRepository.TestGetAllLondon() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\TrasferSystemTests\\TestEmployeeRepository.cs:line 52\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ade05eefdda94e2bba30278c4e2c9255-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728427151,
+      "stop": 1704728427419
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728427150,
+  "stop": 1704728427423
+}

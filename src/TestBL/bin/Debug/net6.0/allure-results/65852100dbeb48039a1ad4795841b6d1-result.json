@@ -1,0 +1,75 @@
+{
+  "uuid": "5f4ca918-e1e2-46cf-9ffd-d7657fd1a6dd-tr-0-1045",
+  "historyId": "TestBL.TestUserController.TestGetUser",
+  "fullName": "TestBL.TestUserController.TestGetUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetUser"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f68fa1ca58f6471fb386a5ea940f47d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638883873,
+      "stop": 1704638883883
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638883873,
+  "stop": 1704638883883
+}

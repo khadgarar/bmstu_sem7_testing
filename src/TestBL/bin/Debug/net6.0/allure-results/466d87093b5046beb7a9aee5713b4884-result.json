@@ -1,0 +1,75 @@
+{
+  "uuid": "e8e97bf1-9181-4f6e-9e61-7ec6c206fc1d-tr-0-1023",
+  "historyId": "TestBL.TestManagerController.TestAddObjective",
+  "fullName": "TestBL.TestManagerController.TestAddObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddObjective",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddObjective"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddObjective",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b883fdaa781c4773adb2148952fe69b2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728510258,
+      "stop": 1704728510263
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728510258,
+  "stop": 1704728510263
+}

@@ -1,0 +1,75 @@
+{
+  "uuid": "74bb8bf9-d11a-4cba-8b52-4f87ce8059f8-tr-0-1013",
+  "historyId": "IntegrationTests.IntTestFounderController.TestDeleteCompany",
+  "fullName": "IntegrationTests.IntTestFounderController.TestDeleteCompany",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteCompany"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestFounderController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteCompany",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteCompany"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteCompany",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d8935f04b5144263909d7fa2b13fdd49-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728508778,
+      "stop": 1704728508801
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728508778,
+  "stop": 1704728508801
+}

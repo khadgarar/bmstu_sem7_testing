@@ -1,0 +1,75 @@
+{
+  "uuid": "621b56f8-3b23-4eb3-a552-b16cafcfdded-tr-0-1047",
+  "historyId": "TestBL.TestUserController.TestGetWorkplaces",
+  "fullName": "TestBL.TestUserController.TestGetWorkplaces",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorkplaces"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetWorkplaces",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetWorkplaces"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetWorkplaces",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bba9f35bb7064912a8fa499ab4be18f9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728510449,
+      "stop": 1704728510454
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728510449,
+  "stop": 1704728510454
+}

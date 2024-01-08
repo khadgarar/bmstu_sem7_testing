@@ -1,0 +1,75 @@
+{
+  "uuid": "124a54fa-069d-4d7e-84f3-d1ff270a4060-tr-0-1052",
+  "historyId": "TestBL.TestUserController.TestDeleteFakeUser",
+  "fullName": "TestBL.TestUserController.TestDeleteFakeUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteFakeUser"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteFakeUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteFakeUser"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteFakeUser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cfeea1110cd643a9a4c1e6f6e907d209-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728510426,
+      "stop": 1704728510429
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728510426,
+  "stop": 1704728510430
+}

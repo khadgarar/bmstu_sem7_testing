@@ -1,0 +1,75 @@
+{
+  "uuid": "7993919b-2c43-461e-b2b8-50fda7789a8f-tr-0-1029",
+  "historyId": "TestBL.TestManagerController.TestGetResponsibilityByEmployee",
+  "fullName": "TestBL.TestManagerController.TestGetResponsibilityByEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibilityByEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "777eeca6d4b6415bb47d74a6908d8229-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728510284,
+      "stop": 1704728510288
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728510284,
+  "stop": 1704728510288
+}

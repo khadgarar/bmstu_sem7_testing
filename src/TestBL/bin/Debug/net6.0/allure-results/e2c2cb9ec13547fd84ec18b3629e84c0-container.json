@@ -1,0 +1,12 @@
+{
+  "uuid": "8be172ce-8227-4ca2-adb1-10ecb19adb13-tc-0-1001",
+  "name": "TestBL.TestEmployeeController.TestGetAllEmployees",
+  "children": [
+    "dc0f4017-9702-4364-9433-e00f8316ab1c-tr-0-1006"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704638883465,
+  "stop": 1704638883471
+}

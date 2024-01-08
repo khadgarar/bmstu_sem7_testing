@@ -1,0 +1,75 @@
+{
+  "uuid": "3d1226c6-6560-44ac-8d4b-3a42e05374f9-tr-0-1025",
+  "historyId": "IntegrationTests.IntTestManagerController.TestGetResponsibilityByEmployee",
+  "fullName": "IntegrationTests.IntTestManagerController.TestGetResponsibilityByEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibilityByEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibilityByEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibilityByEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibilityByEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "970ba9e13dff4c3ea89d874a0844b400-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728508937,
+      "stop": 1704728508943
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728508937,
+  "stop": 1704728508943
+}

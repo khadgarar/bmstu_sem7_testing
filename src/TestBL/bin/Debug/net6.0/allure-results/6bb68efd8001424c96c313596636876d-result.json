@@ -1,0 +1,75 @@
+{
+  "uuid": "7f2f481f-4450-470a-97e4-b0110eded355-tr-0-1025",
+  "historyId": "TestBL.TestManagerController.TestDeleteObjective",
+  "fullName": "TestBL.TestManagerController.TestDeleteObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteObjective",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteObjective"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteObjective",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "52af3ae94dee4e41a5c25fdad638bd3b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638883653,
+      "stop": 1704638883657
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638883653,
+  "stop": 1704638883657
+}

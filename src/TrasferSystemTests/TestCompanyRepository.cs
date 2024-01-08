@@ -19,23 +19,10 @@ namespace TrasferSystemTests
     public class TestCompanyRepository
     {
         [Test]
-        public void TestAdd()
+        public void TestAdd() //in memory fix
         {
             var Company = new Company(_companyid: 2, _title: "Qoollo", _foundationyear: 1994);
 
-            //real DB attempt
-            //var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));
-            //ICompanyRepository rep = new CompanyRepository(context);
-
-            //mock attempt
-            //var context = new Mock<transfersystemContext>();
-            // CompanyDB t = CompanyConv.BltoDB(Company);
-            //context.Setup(x => x.Companies.Add(t)).Returns(t);
-            // ICompanyRepository rep = new CompanyRepository(context.Object);
-
-
-            //in-memory attempt
-            // Создаем объект опций для In Memory Базы данных
             var options = new DbContextOptionsBuilder<transfersystemContext>()
                 .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;

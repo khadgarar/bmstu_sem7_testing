@@ -1,0 +1,78 @@
+{
+  "uuid": "50974d6c-b7d5-4d3f-aa9a-9d7d9e8b5cbc-tr-0-1020",
+  "historyId": "IntegrationTests.IntTestManagerController.TestUpdateObjective",
+  "fullName": "IntegrationTests.IntTestManagerController.TestUpdateObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdateObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdateObjective",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at IntegrationTests.IntTestManagerController.TestUpdateObjective() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestManagerController.cs:line 65"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdateObjective",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at IntegrationTests.IntTestManagerController.TestUpdateObjective() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestManagerController.cs:line 65"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a263d6cb39314ac0b3f34d905c25eff2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638559021,
+      "stop": 1704638559025
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638559021,
+  "stop": 1704638559025
+}

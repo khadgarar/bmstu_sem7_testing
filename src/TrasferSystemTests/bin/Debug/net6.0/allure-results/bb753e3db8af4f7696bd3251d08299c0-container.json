@@ -1,0 +1,12 @@
+{
+  "uuid": "f272a28e-a687-429b-9318-313e9cf27611-tc-0-1023",
+  "name": "TrasferSystemTests.TestObjectiveRepository.TestGetObjectivesByTitle",
+  "children": [
+    "df1d8760-a3de-47c0-ac2a-fb7f62dbf0fb-tr-0-1030"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1704728170969,
+  "stop": 1704728170981
+}

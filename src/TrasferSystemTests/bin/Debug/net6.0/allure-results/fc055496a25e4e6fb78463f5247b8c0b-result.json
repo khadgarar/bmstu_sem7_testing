@@ -1,0 +1,75 @@
+{
+  "uuid": "cc1c0eff-879e-4dbc-b3ac-c60084b0dfe0-tr-0-1043",
+  "historyId": "TrasferSystemTests.TestUserRepository.TestGetUserByLogin",
+  "fullName": "TrasferSystemTests.TestUserRepository.TestGetUserByLogin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetUserByLogin"
+    },
+    {
+      "name": "testClass",
+      "value": "TestUserRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetUserByLogin",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetUserByLogin"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetUserByLogin",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0a2f8fd97f37472fb4695a09c8e77845-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728171120,
+      "stop": 1704728171125
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728171120,
+  "stop": 1704728171125
+}

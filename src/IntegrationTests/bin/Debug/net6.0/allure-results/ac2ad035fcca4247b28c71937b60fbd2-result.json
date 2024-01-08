@@ -1,0 +1,78 @@
+{
+  "uuid": "371d1c43-2b4b-4562-86cc-548f41071573-tr-0-1043",
+  "historyId": "IntegrationTests.IntTestUserController.TestGetEmployeeByWorkplace",
+  "fullName": "IntegrationTests.IntTestUserController.TestGetEmployeeByWorkplace",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetEmployeeByWorkplace"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestUserController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetEmployeeByWorkplace",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at IntegrationTests.IntTestUserController.TestGetEmployeeByWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestUserController.cs:line 88"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetEmployeeByWorkplace",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at IntegrationTests.IntTestUserController.TestGetEmployeeByWorkplace() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestUserController.cs:line 88"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "684c63665e0248f3afc2b4f9100a02ee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638889456,
+      "stop": 1704638889461
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638889456,
+  "stop": 1704638889462
+}

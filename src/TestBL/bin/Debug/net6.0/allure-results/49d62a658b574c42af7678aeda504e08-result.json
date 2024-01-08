@@ -1,0 +1,75 @@
+{
+  "uuid": "350b8bf3-d25f-4907-b759-bd524010303a-tr-0-1014",
+  "historyId": "TestBL.TestFounderController.TestDeleteEmployee",
+  "fullName": "TestBL.TestFounderController.TestDeleteEmployee",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDeleteEmployee"
+    },
+    {
+      "name": "testClass",
+      "value": "TestFounderController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestDeleteEmployee",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDeleteEmployee"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestDeleteEmployee",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7f846ff94f8045a4b3d7922b9345dcba-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638560724,
+      "stop": 1704638560728
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638560724,
+  "stop": 1704638560728
+}

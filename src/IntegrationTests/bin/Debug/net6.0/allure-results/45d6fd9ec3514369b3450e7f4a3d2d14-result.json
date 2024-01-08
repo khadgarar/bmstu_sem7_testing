@@ -1,0 +1,75 @@
+{
+  "uuid": "d3cb4508-7ca6-412f-ba88-3d721572b2cf-tr-0-1037",
+  "historyId": "IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees",
+  "fullName": "IntegrationTests.IntTestResponsibleController.TestGetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestResponsibleController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibleEmployees",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibleEmployees"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibleEmployees",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "942138cec8504291a3a2d42da570b99c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728174998,
+      "stop": 1704728175007
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728174998,
+  "stop": 1704728175007
+}

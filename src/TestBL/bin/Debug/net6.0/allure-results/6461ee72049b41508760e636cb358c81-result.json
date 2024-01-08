@@ -1,0 +1,75 @@
+{
+  "uuid": "761bf949-eb8d-49d3-9371-0b53b22da7c5-tr-0-1030",
+  "historyId": "TestBL.TestManagerController.AddDepartment",
+  "fullName": "TestBL.TestManagerController.AddDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "AddDepartment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddDepartment"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "AddDepartment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c859a0230e3b49a68261388526de3248-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728176333,
+      "stop": 1704728176337
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728176333,
+  "stop": 1704728176337
+}

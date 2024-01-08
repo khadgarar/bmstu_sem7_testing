@@ -1,0 +1,75 @@
+{
+  "uuid": "b97b1391-c124-45b6-9e22-8eb86d0ecfed-tr-0-1019",
+  "historyId": "IntegrationTests.IntTestManagerController.TestAddObjective",
+  "fullName": "IntegrationTests.IntTestManagerController.TestAddObjective",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAddObjective"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestAddObjective",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAddObjective"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestAddObjective",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8d857129f21e441d9ec07d1dccbca651-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638889187,
+      "stop": 1704638889228
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638889187,
+  "stop": 1704638889228
+}

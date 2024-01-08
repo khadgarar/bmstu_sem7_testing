@@ -1,0 +1,75 @@
+{
+  "uuid": "7ce9d825-ed51-4ea2-ad22-0f19f9c082ca-tr-0-1026",
+  "historyId": "TrasferSystemTests.TestObjectiveRepository.TestUpdate",
+  "fullName": "TrasferSystemTests.TestObjectiveRepository.TestUpdate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TrasferSystemTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestUpdate"
+    },
+    {
+      "name": "testClass",
+      "value": "TestObjectiveRepository"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestUpdate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestUpdate"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestUpdate",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ca0f4a59a2ff4731a4bc1bb41c3b1f62-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728170999,
+      "stop": 1704728171008
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728170998,
+  "stop": 1704728171008
+}

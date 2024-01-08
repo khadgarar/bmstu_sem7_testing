@@ -1,0 +1,78 @@
+{
+  "uuid": "a2c1ed96-c2a7-4390-b535-bf7961b0dd9c-tr-0-1005",
+  "historyId": "IntegrationTests.IntTestEmployeeController.TestGetAllEmployees",
+  "fullName": "IntegrationTests.IntTestEmployeeController.TestGetAllEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "IntegrationTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "IntTestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllEmployees",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  GetAllEmployees Count\r\n  Expected: 5\r\n  But was:  0\r\n",
+    "trace": "   at IntegrationTests.IntTestEmployeeController.TestGetAllEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 115\r\n"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllEmployees",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  GetAllEmployees Count\r\n  Expected: 5\r\n  But was:  0\r\n",
+        "trace": "   at IntegrationTests.IntTestEmployeeController.TestGetAllEmployees() in C:\\Users\\ronec\\Desktop\\BMSTU_4Course\\7semester\\testing\\TestingDbCourse\\src\\IntegrationTests\\IntTestEmployeeController.cs:line 115\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "59faa6f1454148cbbbd440168220b6ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638558425,
+      "stop": 1704638558465
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638558425,
+  "stop": 1704638558465
+}

@@ -7,6 +7,8 @@ using System.Linq;
 using NUnit.Allure.Attributes;
 using NUnit.Allure.Core;
 using NUnit.Framework;
+using Microsoft.EntityFrameworkCore;
+using Moq;
 
 namespace TrasferSystemTests
 {
@@ -15,6 +17,42 @@ namespace TrasferSystemTests
     [AllureLink("localhost:80")]
     public class TestEmployeeRepository
     {
+        [Test]
+        public void TestGetAllLondon()
+        {
+            var options = new DbContextOptionsBuilder<transfersystemContext>()
+                .UseInMemoryDatabase(databaseName: "TestDatabase")
+                .Options;
+            using (var context = new transfersystemContext(options))
+            {
+                var user = new User();
+                var employee = new Employee();
+                var EmployeeRep = new Mock<IEmployeeRepository>();
+                var ResponsibilityRep = new Mock<IResponsibilityRepository>();
+                var ObjectiveRep = new Mock<IObjectiveRepository>();
+                var CompanyRep = new Mock<ICompanyRepository>();
+                var DepartmentRep = new Mock<IDepartmentRepository>();
+                var UserRep = new Mock<IUserRepository>();
+
+                EmployeeRep.Setup(x => x.GetAll())
+                .Returns(new List<Employee>() { new Employee(1, "smth", 1, 1, 1)});
+                UserRep.Setup(x => x.GetUserByLogin("smth"))
+                .Returns(new User("smth", "pass","name", "surname"));
+
+                var contr = new FounderController(
+                user, employee, UserRep.Object,
+                CompanyRep.Object, DepartmentRep.Object, EmployeeRep.Object,
+                ObjectiveRep.Object, ResponsibilityRep.Object);
+
+                List<EmployeeView> res = contr.GetAllEmployees();
+
+                Assert.IsNotNull(res);
+                Assert.AreEqual(1, res.Count);
+                Assert.AreEqual(res[0].Department, 1);
+                Assert.AreEqual(res[0].Name_, "name");
+            }
+        }
+
         [Test]
         public void TestAdd()
         {
@@ -37,7 +75,7 @@ namespace TrasferSystemTests
         }
 
         [Test]
-        public void TestGetAll()
+        public void TestGetAll()//Detroit
         {
             var Employee = new Employee(_employeeid: 2000, _user_: "DarkBrandon", _company: 1, _department: null, _permission_: 3);
             var context = new transfersystemContext(Connection.GetConnection(Permissions.Founder.ToString()));

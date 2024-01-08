@@ -1,0 +1,75 @@
+{
+  "uuid": "6f2a7aec-3b17-41e9-82f1-a035c31ddc48-tr-0-1032",
+  "historyId": "TestBL.TestManagerController.DeleteDepartment",
+  "fullName": "TestBL.TestManagerController.DeleteDepartment",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteDepartment"
+    },
+    {
+      "name": "testClass",
+      "value": "TestManagerController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "DeleteDepartment",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "DeleteDepartment"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "DeleteDepartment",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9f559fb3c8dd41f9b150951e48af7258-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728176338,
+      "stop": 1704728176342
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728176338,
+  "stop": 1704728176342
+}

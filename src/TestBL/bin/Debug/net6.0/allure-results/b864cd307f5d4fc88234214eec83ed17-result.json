@@ -1,0 +1,75 @@
+{
+  "uuid": "e619df03-528d-4b6a-a4ad-91a869ea5137-tr-0-1018",
+  "historyId": "TestBL.TestHRController.TestGetResponsibleEmployees",
+  "fullName": "TestBL.TestHRController.TestGetResponsibleEmployees",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetResponsibleEmployees"
+    },
+    {
+      "name": "testClass",
+      "value": "TestHRController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetResponsibleEmployees",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetResponsibleEmployees"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetResponsibleEmployees",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "34a0214793034dff95b39f288a0b93f8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704638560759,
+      "stop": 1704638560765
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704638560759,
+  "stop": 1704638560765
+}

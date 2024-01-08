@@ -1,0 +1,75 @@
+{
+  "uuid": "48927aae-1d52-4b6c-b86c-818443baca44-tr-0-1002",
+  "historyId": "TestBL.TestEmployeeController.TestGetAllObjectives",
+  "fullName": "TestBL.TestEmployeeController.TestGetAllObjectives",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CHESED"
+    },
+    {
+      "name": "package",
+      "value": "TestBL"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllObjectives"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEmployeeController"
+    },
+    {
+      "name": "owner",
+      "value": "mucha"
+    }
+  ],
+  "links": [
+    {
+      "name": "localhost:80",
+      "url": "localhost:80",
+      "type": "link"
+    }
+  ],
+  "name": "TestGetAllObjectives",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllObjectives"
+  },
+  "stage": "finished",
+  "description": "Hehe\n",
+  "steps": [
+    {
+      "name": "TestGetAllObjectives",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8e2f850b415e46b5af297d333c5d9612-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1704728510120,
+      "stop": 1704728510123
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1704728510120,
+  "stop": 1704728510123
+}
