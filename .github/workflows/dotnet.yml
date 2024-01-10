@@ -126,6 +126,11 @@ jobs:
       with:
         name: my-artifact
         path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/TrasferSystemTests/bin/Debug/net6.0/allure-results/         
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: my-artifact
+        path: /home/runner/work/bmstu_sem7_testing/bmstu_sem7_testing/src/Test4/logfile.txt    
     - name: Check
       if: failure()
       run: psql "sslmode=disable user=postgres hostaddr=127.0.0.1 port=5432 password=password dbname=test" <clear.sql
