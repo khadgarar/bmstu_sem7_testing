@@ -37,7 +37,7 @@ namespace TrasferSystemTests
 
                 Assert.IsNotNull(checkCompany1, "Companys was not added");
                 Assert.AreEqual("Qoollo", checkCompany1.Title, "Not equal Added Company");
-                Assert.AreEqual(1995, checkCompany1.Foundationyear, "Not equal Added Company");
+                Assert.AreEqual(1994, checkCompany1.Foundationyear, "Not equal Added Company");
 
                 rep.Delete(checkCompany1);
             }
